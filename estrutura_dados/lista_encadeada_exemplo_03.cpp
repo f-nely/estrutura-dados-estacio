@@ -15,8 +15,8 @@ int main()
     no1->num = 23;
     no1->prox = NULL;
 
-    // criando segundo no
-    nodo* no2 = new nodo;
+    /* Insere ao Final */
+    nodo* no2 = new nodo; // criando segundo no
     no1->prox = no2;
     no2->num = 13;
     no2->prox = NULL;
